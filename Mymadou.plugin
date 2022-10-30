@@ -1,0 +1,11 @@
+#!name=Madou社区
+#!desc=解锁VIP➕金币视频
+#!author=Haha
+#!icon=https://avatars.githubusercontent.com/u/38467044?v=4
+
+[MITM]
+hostname = %APPEND% ypmnkbb.saejeuj.com, fufxtyc.bytebwq.com, lcbnejx.dirptev.com, gcyivjc.qrneryt.com
+
+[Script]
+
+http-request ^https?:\/\/.*\/api\/app\/media\/m3u8\/.*\.m3u8 script-path= https://raw.githubusercontent.com/yqc007/QuantumultX/master/mdsqallcrack.js, requires-body=false, timeout=120, tag=Madou
